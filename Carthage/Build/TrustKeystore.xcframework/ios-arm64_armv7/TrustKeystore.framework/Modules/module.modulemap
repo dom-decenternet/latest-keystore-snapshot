@@ -1,0 +1,11 @@
+framework module TrustKeystore {
+  umbrella header "TrustKeystore.h"
+
+  export *
+  module * { export * }
+}
+
+module TrustKeystore.Swift {
+    header "TrustKeystore-Swift.h"
+    requires objc
+}
